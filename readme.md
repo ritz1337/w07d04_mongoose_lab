@@ -17,11 +17,17 @@ Start poking around.
 - [ ] Look at '/insert' in `routes/index.js`
 - [ ] This app will connect to a mongoDB called "TEST"
 
+```
+
 ### 🤰 Crud
+
+```
+
 - [ ] Visit '/' and try adding data. 
 - [ ] Connect to the MongoDB via the mongoshell to ensure data is making its way there!
 
 ```
+
 
 ### 📖 cRud with Mongoose
 
