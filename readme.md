@@ -1,6 +1,4 @@
-# 🏋️ Working with Mongo in Node with Express
-
-Let's practice issuing commands to our MongoDb server via HTTP!
+# 🏋️ Working with Mongoose in Node with Express
 
 ## 👷 Setup
 
