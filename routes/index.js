@@ -1,16 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-mongoose.connect('localhost:27017/test');
-var Schema = mongoose.Schema;
+mongoose.connect('localhost:27017/w7d4crudlab');
 
-var userDataSchema = new Schema({
-  title: {type: String, required: true},
-  content: String,
-  author: String
-}, {collection: 'userdata'});
-
-var UserData = mongoose.model('UserData', userDataSchema);
+var UserData = require('../models/users');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
